@@ -1,0 +1,23 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/html2md.js",
+    "dev": "node --watch src/html2md.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "htmlparser": "^1.7.7",
+    "path": "^0.12.7"
+  },
+  "bin": {
+    "html2md": "./src/html2md.js"
+  }
+}
